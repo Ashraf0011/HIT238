@@ -4,11 +4,7 @@
 
 Let's talk about myself.
 I'm Ashraful from Bangladesh. I'm studying  IT in Charles Darwin University, Darwin NT.
-My major focused on Networking.  Apart from Networking I love to programe. I do try to make iOS apps and web applications.
-
-
-
-
+My major focused on Networking.  Apart from Networking I love Coding. I do try to make iOS apps and web applications.
 
 
 ## Welcome to GitHub Pages

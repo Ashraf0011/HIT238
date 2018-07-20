@@ -1,8 +1,22 @@
+# Hello there! This a my HIT238 unit's website description.
+
+## You will find some information about my mobile web application and may be some insights about it.
+
+Let's talk about myself.
+I'm Ashraful from Bangladesh. I'm studying  IT in Charles Darwin University, Darwin NT.
+My major focused on Networking.  Apart from Networking I love to programe. I do try to make iOS apps and web applications.
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Ashraf0011/HIT238/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You will see some of my practise apps are on github.
 
 ### Markdown
 

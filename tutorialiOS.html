@@ -37,62 +37,87 @@
   <main>
     <div class="body">
       <section>
-        <h3> Way that I followed for iOS  </h3>
+        <h3> How I installed Cordova for iOS </h3>
         <p> ..... </p>
       </section>
 
       <div class="gridItem">
         <section>
-          <h3> Step 1 </h3>
-          <p> define step 1 </p>
+          <h3> Step 1: Install <strong> Node.js </strong>  </h3>
+          <p> First of all we need to install Node.js on the system. It can be downloaded from <a href="https://nodejs.org/en/"> Node.js Official Website </a>
+          It will install npm on the system. Once done with that, we can access npm commands on terminal. </p>
         </section>
       </div>
       <div class="gridItem">
         <section>
-          <h3> Step 2 </h3>
-          <p> define step 2 </p>
+          <h3> Step 2: Installing <strong>Cordova</strong> with npm </h3>
+          <p> There are many tutorials online whi are not really very help full. In my case, i had trouble with following tutorials at had some issues with read and write permission on my mac.
+            But i figured out that using sudo command solved the issues for me.
+          <pre>
+            <code class="language-bash" data-lang="bash">
+              <span>
+                $ sudo npm install -g cordova
+              </span>
+            </code>
+          </pre>
+            It will require account password for mac.
+          </pre>
         </section>
       </div>
       <div class="gridItem">
         <section>
-          <h3> Step 3 </h3>
-          <p> define step 3 </p>
+          <h3> Step 3: installing ios simulator </h3>
+          <p> Once Cordova is installed on system we hav to install ios-simulator. If it not installed a bad fortune will be coming very soon 🤣🤣🤣🤣!!!
+          Anyway, to install ios simulator we just run following commands on terminal.
+          <pre>
+            <code class="language-bash" data-lang="bash">
+              <span>
+                $ sudo npm install -g ios-sim
+              </span>
+            </code>
+          </pre>
+          Once again it will ask for password.
+          <br> Please make sure to use "-g" with commands it will install features globally, meaning, we will be able to run commands from any directory.
+          <br>
+            So far that's all we need. we can now create cordova project.
+          </p>
         </section>
       </div>
       <div class="gridItem">
         <section>
-          <h3> Step 4 </h3>
-          <p> define step 4 </p>
-        </section>
-      </div>
-      <div class="gridItem">
-        <section>
-          <h3> Step 5 </h3>
-          <p> define step 5 </p>
-        </section>
-      </div>
-      <div class="gridItem">
-        <section>
-          <h3> Step 6 </h3>
-          <p> define step 5 </p>
-        </section>
-      </div>
-      <div class="gridItem">
-        <section>
-          <h3> Step 7 </h3>
-          <p> define step 5 </p>
-        </section>
-      </div>
-      <div class="gridItem">
-        <section>
-          <h3> Step 8 </h3>
-          <p> define step 5 </p>
-        </section>
-      </div>
-      <div class="gridItem">
-        <section>
-          <h3> Step 9 </h3>
-          <p> define step 5 </p>
+          <h3> Step 4: Create Cordova Project.</h3>
+          <p> Now we can create cordova project simply from terminal
+          <pre>
+            <code>
+              <span class="language-bash" data-lang="bash">
+                Ninja:Desktop stux$ cordova create folderName com.dream DreamApp
+                Creating a new cordova project. <br>
+                Ninja:Desktop stux$ cd folderName/
+                Ninja:folderName stux$
+                Ninja:folderName stux$
+                Ninja:folderName stux$ cordova platforms add ios
+                Using cordova-fetch for cordova-ios@~4.5.4
+                Adding ios project...
+                Creating Cordova project for the iOS platform:
+                    Path: platforms/ios
+                    Package: com.dream
+                    Name: DreamApp
+                iOS project created with cordova-ios@4.5.5
+                Discovered plugin "cordova-plugin-whitelist" in config.xml. Adding it to the project
+                Installing "cordova-plugin-whitelist" for ios
+                Adding cordova-plugin-whitelist to package.json
+                Saved plugin info for "cordova-plugin-whitelist" to config.xml
+                --save flag or autosave detected
+                Saving ios@~4.5.5 into config.xml file ...
+                Ninja:folderName stux$
+                Ninja:folderName stux$
+                Ninja:folderName stux$ cordova run ios --emulator
+                Building for iPhone X Simulator...
+              </span>
+            </code>
+          </pre>
+            <img type="svg" src="media/iOS1.svg" class="img-fluid img-thumbnail" width="150px" >
+          </p>
         </section>
       </div>
     </div>
